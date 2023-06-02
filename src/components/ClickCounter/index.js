@@ -20,7 +20,7 @@ class ClickCounter extends Component {
           times
         </h1>
         <p className="count">Click the button to increase the count</p>
-        <button className="button" onClick="this.increaseCount">
+        <button className="button" onClick="{this.increaseCount}">
           Click Me!
         </button>
       </div>
